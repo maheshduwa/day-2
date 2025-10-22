@@ -21,7 +21,7 @@ pipeline {
         }
 
 
-        stage ('Deployment Stage') {
+        stage ('Deployment Stages') {
             steps {
                 withMaven(maven : 'maven_3_5_0') {
                     sh 'mvn deploy -DaltDeploymentRepository=local::default::file:target/repo'
