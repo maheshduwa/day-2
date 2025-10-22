@@ -12,3 +12,4 @@
   - created a new pipeline that uses my github link for jenkinsfile and runs the stages defined there.
   - installed maven plugin and edited Manage Jenkins / Tools / Maven Installations and saved it.
   - commited a code in githiub to run the pipeline.
+  - testing
