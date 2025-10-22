@@ -5,11 +5,11 @@
 - if the number is divisible by 5, you say Buzz
 - if neither, you say the number
 
-  ## CI/CD Part
+# CI/CD Part
   - i installed jenkins in WSL ubuntu system on my laptop
   - installed docker from official repo
-  - created jenkins docker container
+  - created jenkins docker container and setup completely with required plugins installations.
   - created a new pipeline that uses my github link for jenkinsfile and runs the stages defined there.
   - installed maven plugin and edited Manage Jenkins / Tools / Maven Installations and saved it.
-  - commited a code in githiub to run the pipeline.
-  - testing
+  - commited a code in githhub to run the pipeline.
+  - since the jenkins server is on my laptop . i couldnot use git hooks to trigger commits to run the pipeline but ran the pipeline successfuly using manual step.
